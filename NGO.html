@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .ngocoverimg{
+            position: relative;
+        }
+        .ngoprofileimg{
+            position: absolute;
+            top: 280px;
+            left: 45%;
+        }
+        .ngoproducthead{
+            margin-top: 90px;
+            text-align: center;
+            color: orange;
+        }
+        .gallery{
+            display: flex;
+            justify-content: center;
+        }
+        .content{
+            height: auto;
+            width: 20%;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            border: 3px solid orange;
+            border-radius: 25px;
+        }
+        .content img{
+            width:150px;
+            height:150px;
+        }
+        .content label{
+            font-size: 20px;
+            
+        }
+        .content button{
+            width: 100%;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 2px;
+            border: 2px solid orange;
+            background: none;
+        }
+        .buy:hover{
+            background-color: orange;
+            color: white;
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+            border-radius: 15px;
+
+        }
+      
+        @media screen and (max-width:880px) {
+            .content{
+                width: 45%;
+            }            
+        }
+        @media(max-width:750px){
+            .content{
+                width: 100%;
+            }            
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 ngocoverimg"> <img src="https://vikkys.in/wp-content/uploads/revslider/main-home-slider-2/All-Products-Banner-min-1024x267.jpg" alt="cover" width="100%" height="350px"> </div>
+            <div class="col-2 ngoprofileimg"> <img class="rounded-circle border border-5  border-warning" src="http://www.fundcorps.com/assets/img/logo/logo_new.png" alt="profile pic" width="140px" height="140px" > </div>
+        </div>
+    </div>
+    <h1 class="ngoproducthead">NGO Product page</h1>
+    <div class="gallery">
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-1 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-2 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-3 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-1 buy">Buy Now</button>
+        </div>
+    
+       </div>
+
+       <div class="gallery">
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-1 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-2 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-3 buy">Buy Now</button>
+        </div>
+    
+        <div class="content">
+            <img src="http://blog.logomyway.com/wp-content/uploads/2019/09/f-logo-icon.jpg" alt="productName" style="width:150px;height:150px;"><br>
+            <label for="productdesc">Product Name</label>
+            <div  name="productdesc">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, iste.</p>
+                <h3>Price</h3>
+            </div>
+            <button class="buy-1 buy">Buy Now</button>
+        </div>
+    
+       </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
